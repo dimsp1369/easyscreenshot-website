@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Easy Screenshot - A Chrome extension for taking screenshots and saving them to Google Docs">
+    <title>Easy Screenshot - Chrome Extension</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 50px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        
+        h1 {
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 1.2em;
+            margin-bottom: 40px;
+        }
+        
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            margin-top: 20px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+        
+        .button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+        }
+        
+        h2 {
+            color: #444;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+        
+        .features {
+            list-style: none;
+            margin: 20px 0;
+        }
+        
+        .features li {
+            padding: 12px 0;
+            padding-left: 30px;
+            position: relative;
+            font-size: 1.1em;
+        }
+        
+        .features li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
+            font-size: 1.3em;
+        }
+        
+        .links {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 2px solid #eee;
+        }
+        
+        .links a {
+            color: #667eea;
+            text-decoration: none;
+            margin-right: 20px;
+            font-weight: 500;
+        }
+        
+        .links a:hover {
+            text-decoration: underline;
+        }
+        
+        .contact {
+            margin-top: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .contact p {
+            margin: 5px 0;
+        }
+        
+        @media (max-width: 600px) {
+            .card {
+                padding: 30px 20px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Easy Screenshot</h1>
+            <p class="subtitle">Take screenshots instantly and save them to Google Docs with one click!</p>
+            
+            <a href="https://chrome.google.com/webstore/detail/easy-screenshot/jfiljkfcimogfmjpgalhekblepdopmla" class="button" target="_blank">
+                Install from Chrome Web Store →
+            </a>
+            
+            <h2>Features</h2>
+            <ul class="features">
+                <li>📸 Instant screenshot capture with hotkey (Ctrl+Shift+X)</li>
+                <li>💾 Save directly to Google Docs and Drive</li>
+                <li>🎨 Beautiful preview modal before saving</li>
+                <li>⬇️ Download as PNG files locally</li>
+                <li>🔐 Secure Google OAuth integration</li>
+                <li>🚀 Clean, modern interface</li>
+                <li>🔒 No data tracking or storage</li>
+            </ul>
+            
+            <h2>How to Use</h2>
+            <ol style="margin-left: 20px; line-height: 2;">
+                <li>Install the extension from Chrome Web Store</li>
+                <li>Click the extension icon or press <strong>Ctrl+Shift+X</strong></li>
+                <li>Take a screenshot of your current tab</li>
+                <li>Choose to download locally or save to Google Docs</li>
+            </ol>
+            
+            <h2>Perfect For</h2>
+            <ul class="features">
+                <li>Creating documentation with visual examples</li>
+                <li>Bug reports and issue tracking</li>
+                <li>Tutorials and how-to guides</li>
+                <li>Quick visual notes and sharing</li>
+            </ul>
+            
+            <div class="links">
+                <h2>Links</h2>
+                <a href="/privacy-policy.html">Privacy Policy</a>
+                <a href="https://github.com/dimsp1369/easyScreenShot_cws" target="_blank">GitHub Repository</a>
+                <a href="https://chrome.google.com/webstore/detail/easy-screenshot/jfiljkfcimogfmjpgalhekblepdopmla" target="_blank">Chrome Web Store</a>
+            </div>
+            
+            <div class="contact">
+                <h2>Contact</h2>
+                <p><strong>Email:</strong> dimsp1369@gmail.com</p>
+                <p><strong>For privacy questions:</strong> See our <a href="/privacy-policy.html">Privacy Policy</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
